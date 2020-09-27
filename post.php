@@ -6,18 +6,30 @@
 
 ?>
     <main class="post-one-main">
-        <h1>Title</h1>
+        <?php
+            function getPostDetailsFromDatabase(){
+                $postDetails = array('title' => 'Blog post 1',
+                                    'content' =>  'My first blog post',
+                                    'date' => '09/26/2020',
+                                    'author' => 'Samyu Miller');
+
+                 return $postDetails;
+            }
+
+            $postDetails = getPostDetailsFromDatabase()
+        ?>
+        <h1><?php echo $postDetails["title"]?></h1>
         <div>
-            <h3>Authour:</h3>
-            <p>samyu miller</p>
+            <h3>Author:</h3>
+            <p><?php echo $postDetails['author']?></p>
         </div>
         <div>
             <h3>Date Published:</h3>
-            <p>September 26, 2020</p>
+            <p><?php echo $postDetails['date']?></p>
         </div>
         <div>
-            <h3>content</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione minus velit veritatis sit consequatur, quaerat reprehenderit odit, sapiente, distinctio ipsum doloribus ab amet officia id illo quibusdam autem laudantium aperiam.</p>
+            <h3>Content</h3>
+            <p><?php echo $postDetails['content']?></p>
         </div>
     </main>
     <?php

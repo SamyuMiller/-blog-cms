@@ -21,11 +21,11 @@
 
             $postTitles = getPostTitlesFromDatabase();
 
-            foreach($postTitles as $postTitles){
-                echo "<li><a href='post.php'><div class='post-card'>" . $postTitle . "</div><a/></li>";
+            foreach($postTitles as $postTitle){
+                echo "<li><a href='post.php?title=". $postTitle. "'><div class='post-card'>" . $postTitle . "</div><a/></li>";
             }
         ?>
-        <!-- <li><a href="./post.php">Post #1</a></li> -->
+        <!-- <li><a href="./post.php"><div class="post-card">Post #1</div></a></li> -->
     
     </main>
    <?php
