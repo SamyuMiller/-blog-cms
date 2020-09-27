@@ -2,6 +2,10 @@
     include 'header.php';
 
 ?>
+<?php   
+    include 'nav.php'
+
+?>
     <main class="formStyle">
         <!-- The form must have input fields for title, author, date, a textarea for content and a submit button. Use the appropriate input types for each field. -->
       <form action="">
@@ -16,8 +20,8 @@
         <button type="submit">Submit</button>
       </form>
     </main>
-    <footer>
-        Follow Me 
-    </footer>
+    <?php
+   include 'footer.php'
+   ?>
 </body>
 </html>

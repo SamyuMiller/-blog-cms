@@ -1,7 +1,10 @@
 <?php 
     include 'header.php';
 ?>
+<?php   
+    include 'nav.php'
 
+?>
     <main class="post-one-main">
         <h1>Title</h1>
         <div>
@@ -17,9 +20,9 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione minus velit veritatis sit consequatur, quaerat reprehenderit odit, sapiente, distinctio ipsum doloribus ab amet officia id illo quibusdam autem laudantium aperiam.</p>
         </div>
     </main>
-    <footer>
-        Follow Me 
-    </footer>
+    <?php
+   include 'footer.php'
+   ?>
 </body>
 </html>
 
