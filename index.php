@@ -9,9 +9,9 @@
 <body>
     <nav>
         <ul>
-        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./index.php">HOME</a></li>
         <!-- <li><a href="./post.html">post</a></li> -->
-        <li><a href="./post-submission.html">CREATE POST</a></li>
+        <li><a href="./post-submission.php">CREATE POST</a></li>
     </ul>
     </nav> 
     <header class="center">
@@ -22,7 +22,7 @@
     </div>
     <main>
         
-        <li><a href="./post.html"><div class="post-card">Post #1</div></a></li>
+        <li><a href="./post.php"><div class="post-card">Post #1</div></a></li>
     
     </main>
     <footer>
