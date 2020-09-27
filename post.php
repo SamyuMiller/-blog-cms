@@ -1,6 +1,7 @@
 <?php 
     include 'header.php';
 ?>
+
     <main class="post-one-main">
         <h1>Title</h1>
         <div>
