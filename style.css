@@ -73,18 +73,27 @@ body {
 
 .post-card{
     border: 1px solid black;
-    width: 20%;
+    width: 200px;
     height: 200px;
     margin: 20px;
+    
+    
+}
+main.postBox {
+  display: flex;
+  justify-content: space-evenly;
 }
   main li{
     list-style: none;
+    
+    
     
     
   }
   main li a{
     color: black;
     text-decoration: none;
+    
   }
 
   footer{
@@ -92,10 +101,11 @@ body {
       bottom: 0;
       background-color: black;
       color: white;
-      width: 100vw;
+      width: 99%;
       text-align: center;
       font-size: 1.5rem;
       padding: 10px;
+      margin: auto;
   }
   
 .post-one-main{
