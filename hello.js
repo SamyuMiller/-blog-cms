@@ -1,2 +1,4 @@
-
-    alert("Hello World");
+function newFunction() {
+    alert("Hi there!");
+}
+    

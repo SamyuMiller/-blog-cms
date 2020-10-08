@@ -83,11 +83,10 @@ main.postBox {
   display: flex;
   justify-content: space-evenly;
 }
-  main li{
+main li{
     list-style: none;
     
-    
-    
+
     
   }
   main li a{
@@ -126,4 +125,8 @@ form {
     width: 500px;
     margin: auto;
 
+}
+
+button {
+  display: none;
 }
