@@ -20,11 +20,11 @@
 
             function getPostDetailsFromDatabase() {
                 // Get the post title
-                $postTitle = rawurldecode($_GET["title"]);
+                $postTitle = rawurldecode($_GET["title"]); //this gets the end of the url and converts it to a string
             
                 // Get the post that matches the postTitle
                 include_once 'db_connect.php';
-                $sql = "SELECT * FROM posts WHERE title = '$postTitle'";
+                $sql = "SELECT * FROM posts WHERE title = '$postTitle'"; //and this puts the end of the url into this SQL command which gets the titles and details
                 $result = mysqli_query($conn, $sql);
             
                 // Get the first row from the result as an associative array
@@ -77,6 +77,8 @@
     <?php
    include 'footer.php'
    ?>
+
+
 </body>
 </html>
 

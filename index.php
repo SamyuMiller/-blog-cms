@@ -40,6 +40,7 @@ function getPostTitlesFromDatabase() {
     
     </main>
 
+    <button onClick="newFunction()">CLICK</button>
     
 <script src="hello.js"></script>
    <?php
