@@ -39,6 +39,9 @@ function getPostTitlesFromDatabase() {
         <!-- <li><a href="./post.php"><div class="post-card">Post #1</div></a></li> -->
     
     </main>
+
+    
+<script src="hello.js"></script>
    <?php
    include 'footer.php'
    ?>
