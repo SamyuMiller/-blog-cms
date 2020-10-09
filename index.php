@@ -14,6 +14,12 @@
         <p>BLOG POSTS</p>
     </div>
     <main class="postBox">
+
+    <div id="sortable-blog-list">
+    <input class="search" placeholder="Search" />
+    <button class="sort" data-sort="title">Sort</button>
+
+    <ul class="list">
         <?php
             
 function getPostTitlesFromDatabase() {
@@ -33,19 +39,23 @@ function getPostTitlesFromDatabase() {
             $postTitles = getPostTitlesFromDatabase();
 
             foreach($postTitles as $postTitle){
-                echo "<br><li><a href='post.php?title=". $postTitle. "'><div class='post-card'>" . $postTitle . "</div><a/></li><br>";
+                echo "<br><li><a href='post.php?title=". $postTitle. "'><div class='post-card title'>" . $postTitle . "</div><a/></li><br>";
             }
         ?>
         <!-- <li><a href="./post.php"><div class="post-card">Post #1</div></a></li> -->
-    
+        </ul>
+        </div>
     </main>
 
-    <button onClick="newFunction()">CLICK</button>
+    <button class="hiThereButton" onClick="newFunction()">CLICK</button>
     
 <script src="hello.js"></script>
    <?php
    include 'footer.php'
    ?>
 
+
+
 </body>
+<script src="script.js"></script>
 </html>
