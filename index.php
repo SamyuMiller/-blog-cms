@@ -7,6 +7,8 @@
     include 'nav.php'
 
 ?>
+
+
     <header class="center">
         Samyu Miller's Blog
     </header>

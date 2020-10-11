@@ -130,3 +130,8 @@ form {
 button.hiThereButton {
     display: none;
 }
+
+#editor {
+    height: 300px;
+}
+
